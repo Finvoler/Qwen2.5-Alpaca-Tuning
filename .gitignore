@@ -1,0 +1,36 @@
+# Model checkpoints (large binary files — download from cloud link in README)
+ckpts/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Training artifacts
+training_loss.json
+loss_curve.png
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data (large — already in alpaca-cleaned/ subfolder, exclude raw downloads)
+*.zip
+*.tar.gz
